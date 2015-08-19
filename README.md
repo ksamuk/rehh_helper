@@ -16,18 +16,19 @@ Convenience scripts for preparing VCF files for input into the R package 'rehh'.
 chrom = name of a chromosome
 pos1 = first physical position
 pos2 = second physical position
-gen1 = first map position
-gen2 = second map position
+gen1 = first map position (cM)
+gen2 = second map position (cM)
 rate = recombination rate (cM/MB)
 
-- (implictly this also requires your VCF to be reference-based and your genetic map to correspond to the genomic coordinates in your VCF)  
+Implictly, this also requires your VCF to be reference-based and your genetic map to correspond to the genomic coordinates in your VCF.  
 
+## Processing steps
 
-### 1. Filter a VCF and split it into chromosomes
+#### 1. Filter a VCF and split it into chromosomes
 
-### 2. Create genetic maps for each chromosome 
+#### 2. Create genetic maps for each chromosome 
 
-### 3. Phase genotypes with 'Shapeit'
+#### 3. Phase genotypes with 'Shapeit'
 
-### 4. Analyze phased genotypes with rehh
+#### 4. Analyze phased genotypes with rehh
 
