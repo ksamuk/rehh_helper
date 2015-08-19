@@ -15,9 +15,9 @@ Convenience scripts for preparing VCF files for input into the R package 'rehh'.
 
 Where:
 
-- chrom = name of a chromosome
-- pos1 = first physical position
-- pos2 = second physical position
+- chrom = name of a chromosome (only numerics accepted, so far)
+- pos1 = first physical position (bp)
+- pos2 = second physical position (bp)
 - gen1 = first map position (cM)
 - gen2 = second map position (cM)
 - rate = recombination rate (cM/MB)
