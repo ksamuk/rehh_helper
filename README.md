@@ -13,12 +13,14 @@ Convenience scripts for preparing VCF files for input into the R package 'rehh'.
 |---|---|---|---|---|---|
 |1|715797|956634|0.0000002|0.711856|2.955757629|
 
-chrom = name of a chromosome
-pos1 = first physical position
-pos2 = second physical position
-gen1 = first map position (cM)
-gen2 = second map position (cM)
-rate = recombination rate (cM/MB)
+Where:
+
+--chrom = name of a chromosome
+--pos1 = first physical position
+--pos2 = second physical position
+--gen1 = first map position (cM)
+--gen2 = second map position (cM)
+--rate = recombination rate (cM/MB)
 
 Implictly, this also requires your VCF to be reference-based and your genetic map to correspond to the genomic coordinates in your VCF.  
 
